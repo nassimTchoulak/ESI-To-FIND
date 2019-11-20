@@ -1,0 +1,44 @@
+.ziania_school{
+    background-image: url("https://api-esi-to-find.esi.dz/api/get_image_source/ziania2.jpg");
+    min-height: 160px;
+}
+.school:hover{
+    box-shadow: inset 1px 1px 50px #eeeeee;
+}
+.all_school{
+    font-family:'Exo';
+    font-weight: bolder;
+    font-size: 150%;
+}
+.esi_school{
+    /* background-image: linear-gradient(to right, #261326 , #ff5774); */
+    background-image: url("https://api-esi-to-find.esi.dz/api/get_image_source/esi_code_2.jpg");
+    min-height: 160px;
+}
+.school_next{
+    /* background-image: linear-gradient(to right, #261326 , #ff5774); */
+    background-image: url("https://api-esi-to-find.esi.dz/api/get_image_source/next_stop_1.png");
+    min-height: 140px;
+
+}
+.school{
+    color: white;
+    border: 1px solid #B6B4B6;
+    /* background-image: linear-gradient(to right, #261326 , #ff5774); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    font-size: 100%;
+}
+.selected_school{
+    outline-color: #ffffff;
+    outline-style: solid;
+    outline-offset: 2px;
+    box-shadow: inset 1px 1px 15px #ffffff;
+}
+.unselected_school{
+    box-shadow: inset 1px 1px 50px #0f070f;
+}

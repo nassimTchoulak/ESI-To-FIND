@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1200px) {
+
+    .testing{
+        margin-left: 8.333333%;
+        width: 75%;
+    }
+    .bonus_right{
+        width: 16.6666666%;
+        display: block;
+    }
+}

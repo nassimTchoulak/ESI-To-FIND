@@ -1,0 +1,56 @@
+.side_aide{
+    border-right: solid 1px #261326 ;
+
+    position: fixed;
+    z-index: 2;
+    width: 24.5%;
+    min-height: 100%;
+}
+.aide_head{
+    background-image: linear-gradient(to bottom right, #261326,#c6abc6);
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+
+}
+.aide_info{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    font-size: 110%;
+    text-align: left;
+}
+.aide_main{
+    padding-left: 25%;
+    width: 100%;
+}
+.aide_instruction{
+    width: 16.666666%;
+}
+.aide_all_upper{
+    display: flex;
+}
+
+@media (max-width:800px) {
+
+    .aide_instruction{
+        display: none;
+
+    }
+    .side_aide{
+        display: none;
+    }
+    .aide_main{
+        padding-left: 0px;
+
+
+    }
+
+}
+
+

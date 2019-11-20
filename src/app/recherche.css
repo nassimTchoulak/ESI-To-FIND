@@ -1,0 +1,135 @@
+
+.home{
+    background-image: none;
+    border: solid 1px #261326;
+
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.recherche{
+
+   /* background-color: #261326;*/
+    min-height: 1080px;
+}
+.list_hold{
+    position : relative;
+    min-height: 0px;
+    background-color: #fbfbfb;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.list{
+    cursor: pointer;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: absolute;
+}
+.list_item{
+    z-index: 5;
+    background-color: #eeeeee;
+    flex-wrap: nowrap;
+    padding: 2px;
+}
+.list_item:hover{
+    background-color: #ff8697;
+}
+
+.span{
+    padding-top: 5px;
+    color: #261326;
+    max-height: 30px;
+}
+.inc{
+    display: inline;
+    padding: 0px 0px;
+}
+.adapt_type{
+    margin-top: 10px;
+    width: 100%;
+}
+.adapt_recherche{
+    border-radius: 5px 5px;
+    outline: none;
+    color: snow;
+    background-color: #ff5774;
+    margin-top: 20px;
+    font-weight: bolder;
+    border: solid 0.4mm #ff5774;
+}
+.adapt_recherche:hover:enabled{
+    transition-duration: 1s;
+    background-color: #ff8697;
+    animation-name: example;
+    animation-duration: 0.5s;
+    color: white;
+}
+.adapt_recherche:disabled{
+    color: #ff5774;
+    background-color: white;
+    transition: none;
+}
+
+
+.test{
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .add_btn {
+        position: fixed;
+        display: block;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 3px solid #1C39BB;
+        font-size: 180%;
+        text-align: center;
+
+        background-color: white;
+        color: #1c39bb;
+        line-height:50px;
+        z-index:10;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+
+
+
+    }
+    .add_btn_base{
+        bottom: 50px;
+        right: 30px;
+
+    }
+    .add_btn_first{
+        bottom: 150px;
+        right: 30px;
+        color: white;
+        text-shadow:
+                -3px  3px 0 #1c39bb,
+                -1px -1px 0 #1C39BB,
+                1px -1px 0 #1C39BB,
+                -1px 1px 0 #1C39BB,
+                1px 1px 0 #1C39BB;
+    }
+    .add_btn_second{
+        bottom: 250px;
+        right: 30px;
+    }
+    .add_btn_third{
+        bottom: 350px;
+        right: 30px;
+    }
+
+
+}
+@media only screen and (min-width: 601px) {
+
+    .add_btn{
+        display: none;
+    }
+}

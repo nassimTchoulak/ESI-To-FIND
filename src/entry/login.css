@@ -1,0 +1,72 @@
+.login_top{
+
+}
+
+.login_core{
+
+}
+.login_core_main{
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'EXO';
+    padding-top: 70px;
+}
+.login_all{
+   background-image: linear-gradient(to bottom right, #261326, #3d284f);
+    background-color: #261326;
+
+
+    min-height: 100%;
+
+    font-weight: bold;
+
+}
+.login_below{
+    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-size: 120%;
+
+}
+.login_hints{
+    font-weight: normal;
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 150%;
+
+
+}
+.login_google{
+    margin-top: 50px;
+
+
+    background-image: linear-gradient(to right , #ff5a5a,#ff6881); /* #ff5774 */
+    min-width: 250px;
+    border: 0px;
+    box-shadow: #101010 0px 5px 12px;
+    border-radius: 2px 2px;
+    min-height: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', 'Exo';
+
+    outline: none;
+    padding-right: 70px;
+    padding-left: 70px;
+
+
+    font-size: 120%;
+}
+.login_google:hover{
+    box-shadow: #101010  0px 5px 12px,
+    #101010  0px 5px 16px
+
+    ;
+}
+.login_jumper{
+    padding-top: 150px;
+}
+.login_ender{
+    font-style: normal;
+    font-size: 120%;
+    font-family: 'Montserrat', 'Exo';
+    margin-bottom: 50px;
+}

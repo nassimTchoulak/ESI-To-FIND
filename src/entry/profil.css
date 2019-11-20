@@ -1,0 +1,46 @@
+
+.liner_profile{
+    border-bottom: solid 1px #A0A0A0;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    min-height: 10px;
+    margin-bottom: 10px;
+}
+.interline_profile{
+    margin-top: 10px;
+    font-size: 120%;
+    padding-top: 10px;
+
+}
+#interline_login_end{
+    margin-top: 10px;
+    font-size: 120%;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.profile_end{
+    margin-bottom: 20px;
+}
+
+
+.profile_all{
+    font-size: 150%;
+}
+.smaller_items{
+    font-size: 80%;
+}
+.pwd_mod{
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: solid 1px #A0A0A0;
+}
+.side_profile{
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: solid 1px #B6B4B6;
+    font-weight: lighter;
+    font-size: 80%;
+}

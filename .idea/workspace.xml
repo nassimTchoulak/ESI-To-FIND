@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f0951de-f701-41df-aa32-44452524a8fa" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1OsGao53WFflRMzKTAZ8PRki85i" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="C:\Users\amine\PycharmProjects\esi_find\node_modules\eslint" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amine\PycharmProjects\esi_find\public" />
+      <recent name="C:\Users\amine\PycharmProjects\esi_find\src" />
+      <recent name="C:\Users\amine\PycharmProjects\openclassroom\src" />
+      <recent name="C:\Users\amine\PycharmProjects\openclassroom\src\backups" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amine\PycharmProjects\esi_find\src" />
+      <recent name="C:\Users\amine\PycharmProjects\esi_find\src\photo" />
+      <recent name="C:\Users\amine\PycharmProjects\openclassroom\src" />
+      <recent name="C:\Users\amine\PycharmProjects\openclassroom\public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="openclassroom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="openclassroom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="openclassroom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="openclassroom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="openclassroom" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="openclassroom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="openclassroom" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f0951de-f701-41df-aa32-44452524a8fa" name="Default" comment="" />
+      <created>1539351432933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539351432933</updated>
+      <workItem from="1543588072948" duration="136000" />
+      <workItem from="1543686194353" duration="761000" />
+      <workItem from="1545778648319" duration="1789000" />
+      <workItem from="1545822925095" duration="8520000" />
+      <workItem from="1545849911199" duration="9329000" />
+      <workItem from="1548159972462" duration="18791000" />
+      <workItem from="1548233762981" duration="1237000" />
+      <workItem from="1548262378295" duration="3210000" />
+      <workItem from="1548282264052" duration="5058000" />
+      <workItem from="1548326526386" duration="5906000" />
+      <workItem from="1548404743064" duration="13311000" />
+      <workItem from="1548444593982" duration="4854000" />
+      <workItem from="1548498732382" duration="3549000" />
+      <workItem from="1548512324106" duration="609000" />
+      <workItem from="1548529169502" duration="13899000" />
+      <workItem from="1548604724073" duration="13194000" />
+      <workItem from="1548662766635" duration="5045000" />
+      <workItem from="1548698638100" duration="13717000" />
+      <workItem from="1548775888351" duration="1214000" />
+      <workItem from="1548786343029" duration="11412000" />
+      <workItem from="1548857288108" duration="1258000" />
+      <workItem from="1548867162919" duration="20446000" />
+      <workItem from="1548959004772" duration="5516000" />
+      <workItem from="1548968658001" duration="9298000" />
+      <workItem from="1548983702092" duration="82000" />
+      <workItem from="1549014819523" duration="8108000" />
+      <workItem from="1549032329145" duration="8127000" />
+      <workItem from="1549052316390" duration="6540000" />
+      <workItem from="1549112789689" duration="5040000" />
+      <workItem from="1549132272454" duration="5576000" />
+      <workItem from="1549141985258" duration="9577000" />
+      <workItem from="1549219117055" duration="5595000" />
+      <workItem from="1549229645967" duration="2947000" />
+      <workItem from="1549271196693" duration="1320000" />
+      <workItem from="1549305104526" duration="13393000" />
+      <workItem from="1549376551353" duration="9896000" />
+      <workItem from="1549404807692" duration="5208000" />
+      <workItem from="1549466801774" duration="8162000" />
+      <workItem from="1549571825821" duration="1087000" />
+      <workItem from="1549578580742" duration="5894000" />
+      <workItem from="1549621178039" duration="11319000" />
+      <workItem from="1549654034106" duration="5527000" />
+      <workItem from="1549700956824" duration="12121000" />
+      <workItem from="1549752016402" duration="5532000" />
+      <workItem from="1549822574415" duration="947000" />
+      <workItem from="1549827794127" duration="14816000" />
+      <workItem from="1549908665174" duration="4269000" />
+      <workItem from="1549985838667" duration="25096000" />
+      <workItem from="1550085457330" duration="4950000" />
+      <workItem from="1550157034105" duration="5082000" />
+      <workItem from="1550217542287" duration="10824000" />
+      <workItem from="1550237596215" duration="878000" />
+      <workItem from="1550247982533" duration="3925000" />
+      <workItem from="1550270381869" duration="9298000" />
+      <workItem from="1550304101724" duration="5841000" />
+      <workItem from="1550311469242" duration="13436000" />
+      <workItem from="1550329040898" duration="13943000" />
+      <workItem from="1550426606110" duration="10723000" />
+      <workItem from="1550512900032" duration="77000" />
+      <workItem from="1550513083748" duration="717000" />
+      <workItem from="1550514164315" duration="6337000" />
+      <workItem from="1550591128420" duration="10400000" />
+      <workItem from="1550679047540" duration="12124000" />
+      <workItem from="1550765414879" duration="5355000" />
+      <workItem from="1550824213370" duration="8933000" />
+      <workItem from="1550850809561" duration="7511000" />
+      <workItem from="1550955423124" duration="839000" />
+      <workItem from="1551031949591" duration="54000" />
+      <workItem from="1551055386475" duration="416000" />
+      <workItem from="1551114798248" duration="12209000" />
+      <workItem from="1551216817811" duration="736000" />
+      <workItem from="1551287540137" duration="11826000" />
+      <workItem from="1551376578672" duration="5156000" />
+      <workItem from="1551430558383" duration="8107000" />
+      <workItem from="1551516306479" duration="9701000" />
+      <workItem from="1551536177967" duration="19760000" />
+      <workItem from="1551640664979" duration="3974000" />
+      <workItem from="1551719343213" duration="5965000" />
+      <workItem from="1551806878805" duration="15427000" />
+      <workItem from="1552248661628" duration="8074000" />
+      <workItem from="1552305661200" duration="5066000" />
+      <workItem from="1552382068551" duration="688000" />
+      <workItem from="1552389011378" duration="1206000" />
+      <workItem from="1552419253041" duration="5899000" />
+      <workItem from="1552474055817" duration="1354000" />
+      <workItem from="1552481163730" duration="12356000" />
+      <workItem from="1552554501035" duration="9519000" />
+      <workItem from="1552583269089" duration="5080000" />
+      <workItem from="1552605069552" duration="2373000" />
+      <workItem from="1552750545943" duration="761000" />
+      <workItem from="1552785324535" duration="1567000" />
+      <workItem from="1552829044874" duration="1211000" />
+      <workItem from="1552852774931" duration="3816000" />
+      <workItem from="1552907603386" duration="10019000" />
+      <workItem from="1552926540278" duration="4389000" />
+      <workItem from="1552991731455" duration="15613000" />
+      <workItem from="1553019831918" duration="10369000" />
+      <workItem from="1553042475374" duration="3057000" />
+      <workItem from="1553080284016" duration="7203000" />
+      <workItem from="1553119192313" duration="2996000" />
+      <workItem from="1553129753019" duration="3095000" />
+      <workItem from="1553174282749" duration="1323000" />
+      <workItem from="1553179033935" duration="2502000" />
+      <workItem from="1553210402718" duration="512000" />
+      <workItem from="1553283381282" duration="5288000" />
+      <workItem from="1553339508326" duration="7899000" />
+      <workItem from="1553424303085" duration="20000" />
+      <workItem from="1553555221684" duration="1545000" />
+      <workItem from="1553595762712" duration="5130000" />
+      <workItem from="1553711552820" duration="2935000" />
+      <workItem from="1553767817203" duration="4501000" />
+      <workItem from="1553869951211" duration="9216000" />
+      <workItem from="1553949872537" duration="17180000" />
+      <workItem from="1554028317411" duration="14774000" />
+      <workItem from="1554111707763" duration="12529000" />
+      <workItem from="1554228024291" duration="2195000" />
+      <workItem from="1554286895639" duration="6232000" />
+      <workItem from="1554338754572" duration="4147000" />
+      <workItem from="1554375077393" duration="9336000" />
+      <workItem from="1554427927892" duration="96000" />
+      <workItem from="1554502306292" duration="627000" />
+      <workItem from="1554541413750" duration="604000" />
+      <workItem from="1554547286137" duration="5014000" />
+      <workItem from="1554892254074" duration="739000" />
+      <workItem from="1555517195626" duration="837000" />
+      <workItem from="1555706330961" duration="4625000" />
+      <workItem from="1555757748693" duration="7705000" />
+      <workItem from="1555800458893" duration="2863000" />
+      <workItem from="1555847998502" duration="2303000" />
+      <workItem from="1555941814970" duration="7375000" />
+      <workItem from="1556027175377" duration="2316000" />
+      <workItem from="1556060785245" duration="963000" />
+      <workItem from="1556366298537" duration="1676000" />
+      <workItem from="1556403854697" duration="6988000" />
+      <workItem from="1556725431634" duration="181000" />
+      <workItem from="1561922816233" duration="773000" />
+      <workItem from="1562057882317" duration="1204000" />
+      <workItem from="1564101586706" duration="213000" />
+      <workItem from="1564101956019" duration="509000" />
+      <workItem from="1564140814594" duration="1386000" />
+      <workItem from="1564142385983" duration="1089000" />
+      <workItem from="1564144147151" duration="599000" />
+      <workItem from="1564149700780" duration="1281000" />
+      <workItem from="1564229442837" duration="5801000" />
+      <workItem from="1564307462638" duration="6442000" />
+      <workItem from="1564343813586" duration="5513000" />
+      <workItem from="1564394732754" duration="17242000" />
+      <workItem from="1564490782950" duration="2425000" />
+      <workItem from="1564519856039" duration="4569000" />
+      <workItem from="1564533617715" duration="605000" />
+      <workItem from="1564574337458" duration="3278000" />
+      <workItem from="1564601699931" duration="7100000" />
+      <workItem from="1564655017571" duration="14222000" />
+      <workItem from="1564757077654" duration="1176000" />
+      <workItem from="1564758966496" duration="809000" />
+      <workItem from="1568833880220" duration="661000" />
+      <workItem from="1570579082082" duration="3244000" />
+      <workItem from="1570608919176" duration="1428000" />
+      <workItem from="1570729706809" duration="6114000" />
+      <workItem from="1570754450151" duration="223000" />
+      <workItem from="1570755678598" duration="1665000" />
+      <workItem from="1570873919964" duration="622000" />
+      <workItem from="1570890086593" duration="908000" />
+      <workItem from="1572976841090" duration="305000" />
+      <workItem from="1572977222807" duration="93000" />
+      <workItem from="1573069016658" duration="5220000" />
+      <workItem from="1573149345870" duration="1328000" />
+      <workItem from="1574006149343" duration="2041000" />
+      <workItem from="1574192989552" duration="1951000" />
+      <workItem from="1574271617450" duration="979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
