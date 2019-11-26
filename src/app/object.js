@@ -397,20 +397,7 @@ class object extends React.Component{
                                if(!this.small_title){
                                    return str;
                                }
-                               else{
-                                   if(window.screen.width<1300){
-                                       return  str.substring(0,19);
-                                   }
-                                   else{
-                                       if(window.screen.width>=1600){
-                                           return  str.substring(0,27);
-                                       }
-                                       else{
-                                           return  str.substring(0,21);
-                                       }
-
-                                   }
-                               }
+                               return str ;
 
                               })()}
 

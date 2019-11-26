@@ -79,7 +79,8 @@ class poster extends React.Component{
 
             }
         ).catch((err) => {
-            console.log(err)
+            console.log(err);
+
         });
         Axios.get(add('/api/places'), {params: {str:""}}).then((res) => {
                 this.all_places=res.data;
@@ -94,19 +95,20 @@ class poster extends React.Component{
         // binding upload end
         this.end_update = this.end_update.bind(this);
 
-        window.resizeTo(1360,700);
-
+        //window.resizeTo(1360,700);
+        this.set_send_rate = this.set_send_rate.bind(this);
 
     }
 
     type_focus = event =>{
         document.querySelector("#type").focus();
     };
-    componentDidMount() {
+
+    /*componentDidMount() {
         //document.querySelector("#type").focus();
        // window.scrollTo(0, 0);
 
-    }
+    } */
 
 
     type_event = event =>{
@@ -303,7 +305,7 @@ class poster extends React.Component{
         let str = event.target.innerHTML;
         str = str.replace(/^ | $/,"");
         str = str.replace(/^ | $/,"");
-        console.log(this.state.places);
+        //console.log(this.state.places);
 
         if(this.state.places.indexOf(str)===-1) {
 
@@ -351,6 +353,11 @@ class poster extends React.Component{
 
     };
 
+    set_send_rate(str){
+        this.setState({upload_rate:str})
+    }
+
+
     send_file(str){
 
 
@@ -363,6 +370,8 @@ class poster extends React.Component{
 
         let func = this.end_update ;
         let env = this ;
+
+        let send_info = this.set_send_rate ;
 
         reader.addEventListener("load", function () {
            // preview.src = reader.result;
@@ -403,7 +412,15 @@ class poster extends React.Component{
                 }), {
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'
-                    }
+                    },
+                    onUploadProgress: function( progressEvent ) { // upload_rate
+                        //console.log( parseInt( Math.round( ( progressEvent.loaded * 100 ) / progressEvent.total ) ) ) ;
+                        send_info(parseInt( Math.round( ( progressEvent.loaded * 100 ) / progressEvent.total ) )) ;
+
+                    }.bind(this)
+
+
+
                 }).then((res)=>{
 
                     func(str);
@@ -459,6 +476,7 @@ class poster extends React.Component{
         document.removeEventListener("click", this.hide_object_all, false);
 
     };
+
 
 
 
@@ -724,7 +742,14 @@ class poster extends React.Component{
 
             {this.state.on_upload&&<div className={"col-xs-12"}>
                 <div className={"col-xs-12 interline liner"}></div>
-                <h3> Veuillez patienter pandant le telechargement de la publication ...</h3>
+                <h3> Veuillez patienter pandant le telechargement de la publication ... {(()=>{
+
+                    if((this.state.file!=="")||(this.state.file!==null)){
+                        return this.state.upload_rate +" % ";
+                    }
+
+
+                })()}</h3>
                 <h3>{/*this.state.upload_rate*/}</h3>
 
                 <div className={"col-xs-12 interline liner"}></div>

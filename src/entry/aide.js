@@ -107,7 +107,7 @@ const Aide = () => {
                     Foundateur de Esi-To-Find
                 </div>
                 <div className={"col-xs-12 aide_info"}>
-                    <p><strong>TCHOULAK NASSIM 1cs à l'école nationale supérieure d'informatique d'Alger</strong></p>
+                    <p><strong>TCHOULAK NASSIM  étudiant 2csSil à l'école nationale supérieure d'informatique d'Alger </strong></p>
 
                 </div>
 

@@ -415,3 +415,8 @@ img {
         min-height: 60px;
     }
 }
+
+.middle_objects{
+    white-space: nowrap;
+    overflow: hidden;
+}
