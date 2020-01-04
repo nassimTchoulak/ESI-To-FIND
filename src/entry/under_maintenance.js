@@ -68,8 +68,10 @@ class login extends React.Component{
 
 
                     <div className={"col-xs-12 login_core"}>
-                        <div className={"login_core_main"}> Connectez-Vous </div>
-                        <div className={"login_below"} style={{paddingTop:"20px"}}>Utilisez votre adresse e-mail de l'ESI @esi.dz</div>
+                        <div className={"login_core_main"}> Désolé !! nous sommes en maintenance </div>
+
+
+                        <div className={"login_below"} style={{paddingTop:"20px"}}>Nous reviendrons avec plus de fonctionnalitées </div>
 
 
                     </div>
@@ -85,7 +87,7 @@ class login extends React.Component{
 
 
                     <div className={"col-xs-12 login_ender"}>
-                        Esi-To-find restera pour vous
+                        Esi-To-find restera toujours présente pour vous
                     </div>
 
 
