@@ -10,6 +10,7 @@ import poster from './entry/poster';
 import aide from './entry/aide';
 import actual from './app/actuality';
 
+import Under_main from './entry/under_maintenance'
 import holder from './app/holder_beta';
 
 
@@ -110,6 +111,8 @@ function RouteWithSubRoutes(route) {
     );
 }
 
+/*
+
 const routes = [
     {
         path: "/",//   / means sandwich
@@ -179,9 +182,19 @@ const routes = [
         ]
 
 
-
     }
 ];
+
+ */
+
+const routes = [
+    {
+        path: "/",//   / means sandwich
+        component: Under_main,
+        exact:false
+    },
+]
+
 const style = {
     width: "100%",
      backgroundSize :"cover",
