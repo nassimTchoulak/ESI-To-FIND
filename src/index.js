@@ -3,13 +3,20 @@ import ReactDOM from 'react-dom';
 import Core from './core';
 
 import './index.css';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+
 
 import * as serviceWorker from './serviceWorker'
 
 
 
 
-    const ta22= <Core  />;
+    //const ta22= <Core  />;
+
+const ta22 = <Provider store={store}>
+    <Core />
+</Provider>;
 
 
 

@@ -4,6 +4,7 @@ import Axios from 'axios';
 import './main.css';
 import './my_ui.css';
 import {  NavLink } from 'react-router-dom';
+import { connect } from 'react-redux'
 
 import {CSSTransition} from 'react-transition-group';
 
@@ -12,6 +13,7 @@ import {CSSTransition} from 'react-transition-group';
 import logo from './logo4.png';
 import ip from './store/ip_provider';
 import Selector from './entry/selector';
+import {getType} from "./redux/actions";
 
 //import querystr from "querystring";
 
@@ -49,13 +51,14 @@ class main extends React.Component {
         this.date="";
 
     //http://127.0.0.1:8080/api/types
-
+/*
         Axios.get(ip()+'/api/types', {params: {str:""}}).then((res) => {
             this.all_it=res.data;   }
 
         ).catch((err) => {
             console.log(err)
-        });
+        }); */
+
 
         this.state = {
             visible:false,
@@ -66,6 +69,23 @@ class main extends React.Component {
         this.scope="scop1";
 
     }
+
+    componentDidMount() {
+        if(this.props.loaded){
+            this.all_it = this.props.types
+        }
+        else{
+            this.props.getType()
+
+        }
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if((this.props.loaded)&&(!prevProps.loaded)){
+            this.all_it = this.props.types
+        }
+    }
+
     typeHandler= event =>{
         this.scope="scop2";
         let tmp = [];
@@ -262,5 +282,19 @@ class main extends React.Component {
 
     }
 }
+const mapStateToProps = (state)=>{
 
-export default main;
+
+    return {
+        types:state.type.types,
+        loaded:state.type.loaded
+    }
+}
+
+const mapDispatchToProps = {
+
+        getType
+
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(main);
