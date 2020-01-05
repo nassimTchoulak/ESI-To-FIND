@@ -6,6 +6,8 @@ import './poster.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import querystr from 'querystring';
 import ip from '../store/ip_provider';
+import {getType, getPlace} from "../redux/actions";
+import {connect} from "react-redux";
 
 
 
@@ -69,27 +71,6 @@ class poster extends React.Component{
         this.traslator = {};
 
         document.addEventListener("click", this.hide_object_all, false);
-
-        Axios.get(add('/api/types'), {params: {str:""}}).then((res) => {
-                this.all_it=res.data;
-                this.all_it.forEach((i)=>{
-                    this.traslator[i.info]=("glyphicon glyphicon-"+i.icon );
-                });
-
-
-            }
-        ).catch((err) => {
-            console.log(err);
-
-        });
-        Axios.get(add('/api/places'), {params: {str:""}}).then((res) => {
-                this.all_places=res.data;
-                console.log(this.all_places[0]);
-
-            }
-        ).catch((err) => {
-            console.log(err)
-        });
 
 
         // binding upload end
@@ -778,9 +759,63 @@ class poster extends React.Component{
         </div>;
     }
 
+    componentDidMount() {
+        if(!this.props.type.loaded){
+            this.props.getType()
+        }
+        else{
+            this.all_it=this.props.type.types ;
 
+            this.all_it.forEach((i)=>{
+                this.traslator[i.info]=("glyphicon glyphicon-"+i.icon );
+            });
+        }
 
+        if(!this.props.place.loaded){
+
+            this.props.getPlace()
+        }
+        else{
+            this.all_places = this.props.place.places ;
+        }
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if((this.props.type.loaded)&&(!prevProps.type.loaded)){
+            this.all_it=this.props.type.types ;
+
+            this.all_it.forEach((i)=>{
+                this.traslator[i.info]=("glyphicon glyphicon-"+i.icon );
+            });
+        }
+
+        if((this.props.place.loaded)&&(!prevProps.place.loaded)){
+            this.all_places = this.props.place.places ;
+        }
+
+    }
 
 
 }
-export default poster;
+const mapStateToProps = (state)=>{
+
+
+    return {
+        place : {
+            loaded: state.place.loaded,
+            places : state.place.places
+        },
+        type : {
+            loaded: state.type.loaded,
+            types: state.type.types
+        }
+    }
+}
+
+const mapDispatchToProps = {
+
+    getType , getPlace
+
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(poster);

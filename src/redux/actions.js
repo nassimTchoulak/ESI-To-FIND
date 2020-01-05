@@ -8,11 +8,17 @@ export const GET_TYPE = 'GET-TYPE';
 
 export const DELAY_GET = 'DELAY-GET';
 
-export function delayGet() {
+
+//places consts
+export const SET_PLACE = 'SET-PLACE';
+export const GET_PLACE = "GET-PLACE";
+
+
+export function delayGet(next) {
      return (dispatch)=> {
          setTimeout(() => {
 
-             dispatch(getType())
+             dispatch(next())
 
          }, 2000)
 
@@ -28,7 +34,7 @@ export function getType() {
         ).catch((err) => {
             console.log(err)
 
-            dispatch(delayGet()) // = dispatch(setType([]) ) case not loaded try again in 2s
+            dispatch(delayGet(getType)) // = dispatch(setType([]) ) case not loaded try again in 2s
         });
     }
 }
@@ -39,5 +45,29 @@ export function setType(array_types) {
         payload:{
             types:array_types
         }
+    }
+}
+
+
+export function setPlace(array){
+    return {
+        type:SET_PLACE ,
+        payload:{
+            places:array
+        }
+    }
+}
+
+export function getPlace(){
+    return (dispatch)=> {
+        Axios.get(ip()+'/api/places', {params: {str:""}}).then((res) => {
+               // this.all_places=res.data;
+                dispatch(setPlace(res.data))
+
+            }
+        ).catch((err) => {
+            console.log(err)
+            dispatch(delayGet(getPlace))
+        });
     }
 }

@@ -13,6 +13,8 @@ import ip from '../store/ip_provider';
 //import { BrowserRouter as Router, Route,  NavLink  } from "react-router-dom";
 import Instruction from "./instruction";
 import {ClipLoader} from "halogenium";
+import {getPlace, getType} from "../redux/actions";
+import {connect} from "react-redux";
 
 
 
@@ -105,7 +107,7 @@ class recherche extends React.Component{
 
 
 
-        Axios.get(add('/api/types'), {params: {str:""}}).then((res) => {
+      /*  Axios.get(add('/api/types'), {params: {str:""}}).then((res) => {
             this.all_it=res.data;
             this.all_it.forEach((i)=>{
                this.traslator[i.info]=("glyphicon glyphicon-"+i.icon );
@@ -123,9 +125,50 @@ class recherche extends React.Component{
             }
         ).catch((err) => {
             console.log(err)
-        });
+        });*/
         this.props.history.push("/app/recherche");
 
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if((this.props.type.loaded)&&(!prevProps.type.loaded)){
+            this.all_it=this.props.type.types ;
+            this.all_it.forEach((i)=>{
+                this.traslator[i.info]=("glyphicon glyphicon-"+i.icon );
+            });
+
+
+        }
+
+        if((this.props.place.loaded)&&(!prevProps.place.loaded)){
+            this.all_places = this.props.place.places ;
+        }
+    }
+
+    componentDidMount() {
+        this.rechercher();
+
+        document.addEventListener("scroll",this.update_required);
+
+        if(!this.props.type.loaded){
+            this.props.getType()
+        }
+        else{
+            this.all_it=this.props.type.types ;
+            this.all_it.forEach((i)=>{
+                this.traslator[i.info]=("glyphicon glyphicon-"+i.icon );
+            });
+
+
+        }
+
+        if(!this.props.place.loaded){
+
+            this.props.getPlace()
+        }
+        else{
+            this.all_places = this.props.place.places ;
+        }
     }
 
 
@@ -266,11 +309,7 @@ class recherche extends React.Component{
     };
 
 
-    componentDidMount() {
-        this.rechercher();
 
-        document.addEventListener("scroll",this.update_required);
-    }
 
     update_required = event =>{
         this.height1 = ((window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight ) + window.pageYOffset );
@@ -456,4 +495,25 @@ class recherche extends React.Component{
 
 
 }
-export default recherche ;
+const mapStateToProps = (state)=>{
+
+
+    return {
+        place : {
+            loaded: state.place.loaded,
+            places : state.place.places
+        },
+        type : {
+            loaded: state.type.loaded,
+            types: state.type.types
+        }
+    }
+}
+
+const mapDispatchToProps = {
+
+    getType , getPlace
+
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(recherche);
