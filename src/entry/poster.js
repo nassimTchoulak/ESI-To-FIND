@@ -760,10 +760,8 @@ class poster extends React.Component{
     }
 
     componentDidMount() {
-        if(!this.props.type.loaded){
-            this.props.getType()
-        }
-        else{
+
+        if(this.props.type.loaded){
             this.all_it=this.props.type.types ;
 
             this.all_it.forEach((i)=>{
@@ -771,11 +769,7 @@ class poster extends React.Component{
             });
         }
 
-        if(!this.props.place.loaded){
-
-            this.props.getPlace()
-        }
-        else{
+        if(this.props.place.loaded){
             this.all_places = this.props.place.places ;
         }
     }

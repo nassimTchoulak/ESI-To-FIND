@@ -198,6 +198,9 @@ const style = {
 
 
 class core extends React.Component{
+    componentDidMount() {
+
+    }
 
 
     render(){

@@ -74,10 +74,6 @@ class main extends React.Component {
         if(this.props.loaded){
             this.all_it = this.props.types
         }
-        else{
-            this.props.getType()
-
-        }
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {

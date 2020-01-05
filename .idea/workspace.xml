@@ -4,11 +4,11 @@
     <list default="true" id="8f0951de-f701-41df-aa32-44452524a8fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/recherche.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/recherche.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entry/poster.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry/poster.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/typeReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/defaultReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/ip_provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/ip_provider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -387,7 +387,7 @@
       <workItem from="1574271617450" duration="979000" />
       <workItem from="1574272615968" duration="5653000" />
       <workItem from="1574292652392" duration="665000" />
-      <workItem from="1578261802212" duration="3708000" />
+      <workItem from="1578261802212" duration="6157000" />
     </task>
     <servers />
   </component>

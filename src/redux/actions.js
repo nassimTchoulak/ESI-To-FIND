@@ -27,6 +27,8 @@ export function delayGet(next) {
 
 export function getType() {
     return (dispatch)=>{
+        console.log("http types")
+
         Axios.get(ip()+'/api/types', {params: {str:""}}).then((res) => {
 
             dispatch(setType(res.data)) }
@@ -60,6 +62,8 @@ export function setPlace(array){
 
 export function getPlace(){
     return (dispatch)=> {
+        console.log("http places")
+
         Axios.get(ip()+'/api/places', {params: {str:""}}).then((res) => {
                // this.all_places=res.data;
                 dispatch(setPlace(res.data))

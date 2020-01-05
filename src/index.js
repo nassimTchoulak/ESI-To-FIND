@@ -8,10 +8,12 @@ import store from './redux/store';
 
 
 import * as serviceWorker from './serviceWorker'
+import {getPlace, getType} from "./redux/actions";
 
 
 
-
+store.dispatch(getPlace());
+store.dispatch(getType());
     //const ta22= <Core  />;
 
 const ta22 = <Provider store={store}>
