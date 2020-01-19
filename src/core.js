@@ -9,7 +9,7 @@ import profil from './entry/profil';
 import poster from './entry/poster';
 import aide from './entry/aide';
 import actual from './app/actuality';
-
+import BarNotif from "./entry/notificationBar";
 import holder from './app/holder_beta';
 
 
@@ -77,14 +77,10 @@ function App_head({ routes }) {
 
                     <NavLink to={"/app/poster?pst"} id={"poster_way"} className={"col-md-4 my_button_v3"}> Publier Mon Objet</NavLink>
                     <NavLink to={"/aide"} className={" col-md-offset-1 col-md-2 my_button_v3  "}> Aide</NavLink>
-                    <NavLink to={"/login"} className={"col-md-offset-1 col-md-3 my_button_v3"}> {
-                       Connect_state()
+
+                    <BarNotif className={"col-md-offset-1 col-md-3 my_button_v3"} />
 
 
-                    }
-
-
-                    </NavLink>
                 </div>
 
             </div>

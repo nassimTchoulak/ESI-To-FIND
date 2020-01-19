@@ -181,14 +181,14 @@ class main extends React.Component {
 
                     <NavLink to={"/app/poster?pst"} className={"col-md-4 my_button_v1"}> Publier Mon Objet </NavLink>
                     <NavLink to={"/aide"}  className={" col-md-offset-1 col-md-2 my_button_v1  "}>  Aide   </NavLink>
-                    <NavLink to={"/login"}  className={"col-md-offset-1 col-md-3 my_button_v1"}>  {(()=>{
+                    {(()=>{
                         if(localStorage.getItem("login")===null){
-                            return "Connexion"
+                            return <NavLink to={"/login"}  className={"col-md-offset-1 col-md-3 my_button_v1"}>Connexion</NavLink>
                         }
                         else{
-                            return "Mon Profil"
+                            return <NavLink to={"/profile"}  className={"col-md-offset-1 col-md-3 my_button_v1"}>Mon Profil</NavLink>
                         }
-                    })()} </NavLink>
+                    })()}
                 </div>
 
                 <div className={"col-md-4 col-md-offset-1 col-xs-12  circular_box holder_test"} style={{marginTop:"10px"}}>
