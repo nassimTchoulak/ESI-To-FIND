@@ -52,6 +52,7 @@ export function getNotifications(_id){
 
 export function notificationSeen(_id,not_id){
     return (dispatch)=>{
+
         Axios.post(ip()+'/api/notification_done', querystr.stringify({
             _id:_id,
             not_ids:"["+not_id+"]"

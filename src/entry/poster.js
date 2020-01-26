@@ -193,7 +193,7 @@ class poster extends React.Component{
           this.setState({on_upload:true});
 
         Axios.post(add("/api/post"), querystr.stringify({
-            type:this.state.type,
+            type:this.state.type.toLowerCase(),
             lieu:lieu1,
             temps:time,
             nature:nature,
@@ -748,7 +748,7 @@ class poster extends React.Component{
 
 
             <div className={" col-xs-12"}  style={end_style}>
-                ESI TO FIND `@2019
+                ESI TO FIND `@2020
             </div>
 
 

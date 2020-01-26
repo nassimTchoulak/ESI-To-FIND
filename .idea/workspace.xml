@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0951de-f701-41df-aa32-44452524a8fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entry/notificationBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entry/notifBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/actuality.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/actuality.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/holder_beta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/holder_beta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/recherche.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/recherche.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entry/aide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry/aide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entry/notificationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry/notificationBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entry/poster.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry/poster.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_ui.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/defaultReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/defaultReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/ip_provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/ip_provider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -50,6 +55,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
@@ -395,7 +401,11 @@
       <workItem from="1579020930363" duration="625000" />
       <workItem from="1579035764984" duration="1325000" />
       <workItem from="1579302519868" duration="993000" />
-      <workItem from="1579455609718" duration="12659000" />
+      <workItem from="1579455609718" duration="19521000" />
+      <workItem from="1579645281164" duration="1333000" />
+      <workItem from="1579728842333" duration="324000" />
+      <workItem from="1579885656553" duration="667000" />
+      <workItem from="1579947619787" duration="26371000" />
     </task>
     <servers />
   </component>

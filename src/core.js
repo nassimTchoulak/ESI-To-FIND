@@ -78,7 +78,7 @@ function App_head({ routes }) {
                     <NavLink to={"/app/poster?pst"} id={"poster_way"} className={"col-md-4 my_button_v3"}> Publier Mon Objet</NavLink>
                     <NavLink to={"/aide"} className={" col-md-offset-1 col-md-2 my_button_v3  "}> Aide</NavLink>
 
-                    <BarNotif className={"col-md-offset-1 col-md-3 my_button_v3"} />
+                    <BarNotif className={"col-md-offset-1 col-md-4 zero_pad my_button_v3"} />
 
 
                 </div>

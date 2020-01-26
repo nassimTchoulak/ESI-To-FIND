@@ -21,7 +21,7 @@ const Aide = () => {
            <div className={"col-xs-12 interline"}></div>
            <a href={"#art1"}  className={"col-xs-12 my_button_v3"}>Pourquoi utiliser Esi-To-Find</a>
            <div className={"col-xs-12 interline"}></div>
-           <a href={"#art2"}  className={"col-xs-12 my_button_v3"}>Comment Utiliser Esi-To-Find</a>
+           <a href={"#art2"}  className={"col-xs-12 my_button_v3"}>Latest de Esi-To-Find</a>
            <div className={"col-xs-12 interline"}></div>
            <a href={"#art3"}  className={"col-xs-12 my_button_v3"}>Fondateur de Esi-to-Find</a>
        </div>
@@ -75,7 +75,7 @@ const Aide = () => {
                     </p>
 
                     <p><span>&nbsp;&nbsp;</span>  <span style={{color:"#ff5774"}} className={"glyphicon glyphicon-chevron-right"}></span>
-                        <strong style={{color:"#ff5774",fontWeight:"bolder"}}>Les notifications par mails : </strong> Esi-To-Find vous garde à jour en vous notifiant par mail pour chaque
+                        <strong style={{color:"#ff5774",fontWeight:"bolder"}}>Les notifications 'NEW' : </strong> Esi-To-Find vous garde à jour en vous notifiant  pour chaque
                         interaction à votre publication ou au moment d'introduction d'un Object qui semblent répondre à vos critères </p>
 
 
@@ -89,10 +89,18 @@ const Aide = () => {
             <div className={"col-xs-12 zero_pad"}>
 
                 <div className={"col-xs-12 aide_head"} id={"art2"}>
-                    Comment utiliser Esi-To-Find
+                    Latest de Esi-To-Find
                 </div>
                 <div className={"col-xs-12 aide_info"}>
-                    <img alt={"comment utliser "} src={"https://api-esi-to-find.esi.dz/api/get_image_source/howtouse.PNG"} width={"100%"} />
+                    l'application a vu une très grande amélioration et optimisations au niveau de son API  et nottament sur la présentation , cela dans le but  d'intégrer plusieurs nouvelle fonctionnalités dont les notifications ,
+                    beaucoup plus seront intégré très prochainement , récupérer vos objets perdus ne serai plus comme avant !
+
+                    <p><span>&nbsp;&nbsp;</span><span style={{color:"#ff5774"}} className={"glyphicon glyphicon-chevron-right"}></span>
+                        <strong style={{color:"#ff5774",fontWeight:"bolder"}}>Redux & React Hooks itroduction :</strong> optimisation et centralisation des données partagées </p>
+                    <p><span>&nbsp;&nbsp;</span><span style={{color:"#ff5774"}} className={"glyphicon glyphicon-chevron-right"}></span>
+                        <strong style={{color:"#ff5774",fontWeight:"bolder"}}>API redactoring:</strong> database's level changes   </p>
+
+                    <img src={"https://api-esi-to-find.esi.dz/api/get_image_source/Annotation 2020-01-26 014757.png"} />
 
                 </div>
 
@@ -116,7 +124,7 @@ const Aide = () => {
             </div>
 
             <div className={"col-xs-12 end_style  "} >
-                ESI TO FIND `@2019
+                ESI TO FIND `@2020
             </div>
 
 

@@ -420,3 +420,20 @@ img {
     white-space: nowrap;
     overflow: hidden;
 }
+
+
+.disable_navlink:hover{
+    text-decoration: none;
+}
+a.disable_navlink {
+    text-decoration: none;
+}
+a.disable_navlink:hover{
+    text-decoration: none;
+}
+a.disable_navlink {
+    text-decoration: none;
+}
+a.disable_navlink a:hover{
+    text-decoration: none;
+}
